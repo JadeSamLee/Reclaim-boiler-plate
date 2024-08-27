@@ -8,8 +8,8 @@ export default function Home() {
   const [error, setError] = useState('');
   const [verificationMessage, setVerificationMessage] = useState('');
 
-  const APP_ID = "0x2a38469C94810Ec851028d6BB186bBf239E6760B"; // application ID
-  const APP_SECRET = "0xa6f3567ebd6a9ec63b7d2343c0e3bafd43245244f9f99ca694bff2dce04e2b02"; // APP_SECRET
+  const APP_ID = " "; // application ID
+  const APP_SECRET = " "; // APP_SECRET
   const reclaimClient = new Reclaim.ProofRequest(APP_ID);
 
   async function generateVerificationRequest() {
